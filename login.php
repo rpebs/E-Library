@@ -35,7 +35,7 @@ include('setting/koneksi.php');
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="index2.html"><b>Admin</b>LTE</a>
+    <a href="index2.html"><b>E-</b>Library</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -79,6 +79,7 @@ include('setting/koneksi.php');
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.min.js"></script>
+<script src="https://kit.fontawesome.com/cc93e5876b.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

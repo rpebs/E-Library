@@ -51,5 +51,6 @@
     <script src="../dist/js/pages/dashboard.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="../dist/js/demo.js"></script>
+    <script src="https://kit.fontawesome.com/cc93e5876b.js" crossorigin="anonymous"></script>
   </body>
 </html>

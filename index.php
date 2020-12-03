@@ -29,7 +29,7 @@ include('setting/koneksi.php');
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>AdminLTE 3 | Dashboard</title>
+    <title>E-Library Beta</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Font Awesome -->
@@ -167,7 +167,7 @@ include('setting/koneksi.php');
             class="brand-image img-circle elevation-3"
             style="opacity: 0.8"
           />
-          <span class="brand-text font-weight-light">AdminLTE 3</span>
+          <span class="brand-text font-weight-light">E-Library Beta</span>
         </a>
 
         <!-- Sidebar -->
@@ -310,7 +310,7 @@ include('setting/koneksi.php');
             <div class="icon">
               <i class="fas fa-book"></i>
             </div>
-            <a href="#" class="small-box-footer"
+            <a href="layout/data_buku.php" class="small-box-footer"
               >More info <i class="fas fa-arrow-circle-right"></i
             ></a>
           </div>
@@ -327,7 +327,7 @@ include('setting/koneksi.php');
             <div class="icon">
               <i class="fas fa-user"></i>
             </div>
-            <a href="#" class="small-box-footer"
+            <a href="layout/data_anggota.php" class="small-box-footer"
               >More info <i class="fas fa-arrow-circle-right"></i
             ></a>
           </div>
@@ -344,7 +344,7 @@ include('setting/koneksi.php');
             <div class="icon">
               <i class="ion ion-person-add"></i>
             </div>
-            <a href="#" class="small-box-footer"
+            <a href="layout/data_peminjaman.php" class="small-box-footer"
               >More info <i class="fas fa-arrow-circle-right"></i
             ></a>
           </div>
@@ -379,7 +379,7 @@ include('setting/koneksi.php');
 <footer class="main-footer text-center">
         <strong
           >Copyright &copy; 2014-2019
-          <a href="http://adminlte.io">AdminLTE.io</a>.</strong
+          <a href="http://adminlte.io">Ramadhany PEBS</a>.</strong
         >
         All rights reserved.
         <div class="float-right d-none d-sm-inline-block">
