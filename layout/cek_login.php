@@ -14,10 +14,11 @@ $data = mysqli_query($koneksi,"select * from t_acount where username='$username'
 
 // menghitung jumlah data yang ditemukan
 $cek = mysqli_num_rows($data);
-
+$d = mysqli_fetch_array($data);
 if($cek > 0){
 	$_SESSION['username'] = $username;
 	$_SESSION['status'] = "login";
+	$_SESSION['nama'] = $d['nama'];
 	header("location:../index.php");
 }else{
 	header("location:../index.php?pesan=gagal");

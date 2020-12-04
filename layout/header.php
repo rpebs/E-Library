@@ -162,7 +162,7 @@
               />
             </div>
             <div class="info">
-              <a href="#" class="d-block">Ramadhany Pramestha</a>
+              <a href="setting_admin.php" class="d-block"><?= $_SESSION['nama']; ?></a>
             </div>
           </div>
 
