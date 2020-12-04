@@ -43,6 +43,7 @@ $join = mysqli_query($koneksi, "SELECT * FROM t_peminjaman INNER JOIN t_anggota 
           <div class="card">
             <div class="card-header">
               <a href="tambah_peminjaman.php" class="btn btn-primary">Pinjam Buku</a>
+              <a href="cetak.php" class="btn btn-primary">Cetak Laporan</a>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
