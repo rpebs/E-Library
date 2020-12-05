@@ -94,6 +94,7 @@ $join = mysqli_query($koneksi, "SELECT * FROM t_buku INNER JOIN t_penulis ON t_b
                     <th>Tahun</th>
                     <th>Harga</th>
                     <th>Kode Rak</th>
+                    <th>Jumlah</th>
                     <th>Opsi</th>
                   </tr>
                 </tfoot>
